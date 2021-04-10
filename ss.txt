@@ -1,1 +1,8 @@
-sadsadsadsadas
+@echo off
+
+cls
+
+setlocal  ENABLEEXTENSIONS
+javac -version 2>version.txt
+
+:end
